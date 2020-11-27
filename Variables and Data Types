@@ -1,0 +1,63 @@
+****************Data Types****************
+
+1) Numbers
+2) String
+3) List
+4) Tuples
+5) Sets
+6) Dictionary
+7) Range
+
+Numerical Data Types
+1) Integers
+2) Float
+3) Complex numbers
+4) Boolean
+
+String: Unicode to store strings
+
+List : A list is ordered and changeable, unlike strings. We can add duplicate values as well. To declare a list we use the square brackets []
+
+        Method Name 	                       Property     
+        clear()	                    removes all the elements from the list
+        copy()	                    returns a copy of the list
+        extend()	                  add the elements of the list to the end of the current list lst1.extend(lst)
+        append()                    add a value into the list at the ednd
+        count()	                    returns the number of elements of the specified value
+        index()	                    returns the index of the element
+        pop()	                      removes the element from the specified position
+        remove()	                  removes the item with the specified value
+        sort()	                    sorts the list
+        reverse()	                  returns the reversed list
+ 
+ Tuples: Tuple is a collection which is unchangeable or immutable. It is ordered and the values can be accessed using the index values. A tuple can have duplicate values as well. 
+ To declare a tuple we use the round brackets ().
+ Count & index is available method in tuples.
+ 
+ Sets: A set is a collection which is unordered,  it does not have any indexes as well. To declare a set in python we use the curly brackets.
+        myset = {10, 20 , 30 ,40, 50, 50}
+       Method Name	Property
+clear()	clears the items from a set
+copy()	returns the copy of the set
+difference()	returns a set with the difference of the two sets
+isdisjoint()	returns if the sets have intersection
+issubset()	returns if the set is a subset
+symmetricdifference()	returns a set with the symmetric difference
+update()	update the sets with union of the set
+
+
+Dictionary : dictionary is just like any other collection array in python. But they have key value pairs. A dictionary is unordered and changeable. 
+  We use the keys to access the items from a dictionary. To declare a dictionary, we use the curly brackets.
+  Method Name	Property
+copy()	returns a copy of the dictionary
+clear()	clears the dictionary
+items()	returns a list containing tuple of key value pairs
+keys()	returns a list containing all the keys
+update()	updates the dictionary with all the key-value pairs
+values()	returns a list of all the values in a dictionary
+setdefault()	returns the value of a specified key
+
+Range : for x in range(10):
+          print(x)
+          
+ Type Casting is another important concept of any programming language
