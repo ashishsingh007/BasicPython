@@ -1,0 +1,28 @@
+1) Python is Case Sensitive. For Example --> ls_list & LS_LIST both will be treated two different variable
+2) For path specification, Python uses Forward Slashes. If you are accessing file then python will understand C:/folderA/folderB not C:\folderA\folderB
+3) There is no command to terminate any statement so no semicolon ; or anything. Simply we can write print("Hello World")
+4) In one line only single line should be write to execute. but if you want to write to statement then use semicolon ; as below.
+    print("Ashish Singh - 1st"); print("Ashish Singh - 2nd")
+5) A string literals can be declare in single quotes '', double quote "",''' """ tripple quotes
+6) ANy statement can be commented using # in python 
+7) Line Continutaion can be done using \ like
+    sum = 123 + \
+          100 + \
+          50
+     Expression enclosed in (), [],{} does not need any \ for line continuation
+ 8) Blank line b/w program is ignored
+ 9) Indentation is key part of python like other programming language has {} etc
+ 
+ 
+ Python Enchancement Proposal (PEP) --> Python 2.7 was last version from 2.X series. it has been discontinue in year 2020. Python 2 made tremenadous change in python which makes language more popular.
+ 
+ Differences b/w Python 2 & Python 3
+ 
+                    Python 3                          Python 2
+Release Date        2008                              2000
+Print function      print("Hello World")              print "Hello World"
+Division of Integer returns float value               always returns integer value
+Unicode             Default storing of string is      To store unicode value, you need to define them with "u"
+                    Unicode 
+Iteration           range                             xrange
+
